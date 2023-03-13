@@ -1,0 +1,30 @@
+plane size: 1225000000
+mandelbrot calculation started
+calculation of 1225000000 Points with 800 iterations each finished in 115.892s
+gradient detail: 2000
+
+starting Box-Dimension analysis
+magnification x1 hit: 234
+magnification x2 hit: 609
+magnification x4 hit: 1676
+magnification x8 hit: 4806
+magnification x16 hit: 14310
+magnification x32 hit: 44590
+magnification x64 hit: 145058
+magnification x128 hit: 497601
+magnification x256 hit: 1790426
+magnification x512 hit: 6679825
+magnification x1024 hit: 25262871
+estimated fractal dimension: 1.67202 with 11 measurements
+
+saving image...
+saved mandelbrot.png in 19.1289s
+verified 25262871 boxes to be true in 3.34212s
+
+saving image...
+saved verifyBigMandelbrot.png in 14.9392s
+finished in 368.923s
+
+E:\visual_studio\repos\irgendwas\x64\Debug\irgendwas.exe (process 22280) exited with code 0.
+To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
+Press any key to close this window . . .

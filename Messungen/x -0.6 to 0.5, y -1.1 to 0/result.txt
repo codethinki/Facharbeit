@@ -1,0 +1,37 @@
+plane size: 1225000000
+mandelbrot calculation started
+calculation of 1225000000 Points with 2036 iterations each finished in 667.737s
+gradient detail: 5090
+[ INFO:0@670.224] global registry_parallel.impl.hpp:96 cv::parallel::ParallelBackendRegistry::ParallelBackendRegistry core(parallel): Enabled backends(3, sorted by priority): ONETBB(1000); TBB(990); OPENMP(980)
+[ INFO:0@670.227] global plugin_loader.impl.hpp:67 cv::plugin::impl::DynamicLib::libraryLoad load E:\visual_studio\repos\irgendwas\x64\Debug\opencv_core_parallel_onetbb470_64d.dll => FAILED
+[ INFO:0@670.228] global plugin_loader.impl.hpp:67 cv::plugin::impl::DynamicLib::libraryLoad load opencv_core_parallel_onetbb470_64d.dll => FAILED
+[ INFO:0@670.228] global plugin_loader.impl.hpp:67 cv::plugin::impl::DynamicLib::libraryLoad load E:\visual_studio\repos\irgendwas\x64\Debug\opencv_core_parallel_tbb470_64d.dll => FAILED
+[ INFO:0@670.229] global plugin_loader.impl.hpp:67 cv::plugin::impl::DynamicLib::libraryLoad load opencv_core_parallel_tbb470_64d.dll => FAILED
+[ INFO:0@670.229] global plugin_loader.impl.hpp:67 cv::plugin::impl::DynamicLib::libraryLoad load E:\visual_studio\repos\irgendwas\x64\Debug\opencv_core_parallel_openmp470_64d.dll => FAILED
+[ INFO:0@670.230] global plugin_loader.impl.hpp:67 cv::plugin::impl::DynamicLib::libraryLoad load opencv_core_parallel_openmp470_64d.dll => FAILED
+
+starting Box-Dimension analysis
+magnification x1 hit: 250
+magnification x2 hit: 707
+magnification x4 hit: 2060
+magnification x8 hit: 6199
+magnification x16 hit: 19010
+magnification x32 hit: 59131
+magnification x64 hit: 186450
+magnification x128 hit: 594998
+magnification x256 hit: 1931509
+magnification x512 hit: 6423281
+magnification x1024 hit: 22003256
+estimated fractal dimension: 1.64254 with 11 measurements
+
+saving image...
+saved mandelbrot.png in 16.739s
+verified 22003256 boxes to be true in 3.27102s
+
+saving image...
+saved verifyBigMandelbrot.png in 15.0682s
+finished in 918.87s
+
+E:\visual_studio\repos\irgendwas\x64\Debug\irgendwas.exe (process 11512) exited with code 0.
+To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
+Press any key to close this window . . .

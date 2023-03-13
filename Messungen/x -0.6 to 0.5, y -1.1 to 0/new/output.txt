@@ -1,0 +1,26 @@
+plane size: 1225000000
+mandelbrot calculation started
+calculation of 1225000000 Points with 2036 iterations each finished in 629.403s
+gradient detail: 5090
+
+starting Box-Dimension analysis
+magnification x1 hit: 245
+magnification x2 hit: 686
+magnification x4 hit: 2001
+magnification x8 hit: 6021
+magnification x16 hit: 18393
+magnification x32 hit: 56749
+magnification x64 hit: 177397
+magnification x128 hit: 555362
+magnification x256 hit: 1745213
+magnification x512 hit: 5528132
+magnification x1024 hit: 17879921
+estimated fractal dimension: 1.61552 with 11 measurements
+
+saving image...
+saved mandelbrot.png in 15.857s 
+verified 17879921 boxes to be true in 3.25462s
+
+saving image...
+saved verifyBigMandelbrot.png in 15.2239s 
+finished in 877.52s 
